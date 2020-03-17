@@ -387,12 +387,29 @@ border-radius:80px;
 }
 
 
-/*@media screen and (max-width: 680px){
+@media screen and (max-width: 680px){
 	
-.element_1
-	{
-		background-color: #FEC907;
-		width: auto;
-	}
+	header{width:100%}
+	header {background-color:#FEC907}
+	span{color:white}
+	aside{ display: none}
+	section{width:500px}
+	.article_1{width:100%;}
+	.gd{width: 100%}
+	#formagaucho{padding-left: 100px;}
+	.paragraphe_1{width:auto;padding-right:60px;}
+	.paragraphe_2{width:auto;padding-right:60px;}
+	.paragraphe_3{width:auto;padding-right:60px;}
+	.article_2{width:auto;}
+	.element_1{border:none;}
+	.petit{padding-left: 150px}
+	h2{margin-top: 70px;}
+	header{background-image:url("img/muss_mini.jpg"); background-repeat: no-repeat;}
+	.debut{margin-right: 150px;}
+	
 
-}	*/
+
+
+
+
+}	
