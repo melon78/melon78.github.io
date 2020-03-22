@@ -1,37 +1,157 @@
+body
+{
+
+	width: 100%;
+
+	margin:10px;
+	padding:0px;
+	
+}
+
+
+header
+{
+
+height: 10%;
+
+}
+
+
+#cadre
+
+{
+	
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	width:auto;
+
+
+}
+
+
+aside
+{
+	width: 16%;
+	
+	background-color: #FEC907;
+	
+}
+
+img {
+width: 150px; 
+height: 150px; 
+object-fit: cover; 
+}
+
+
+/*#tmax
+{
+
+	display:block;
+	float:left;
+	border-style: solid;
+	border-color: grey;
+	width:49%;
+	height:49%;
+	background:url(img/muss.jpg);
+	background-size:100% auto;  ADAPTATION de l'image au conteneur 
+	background-repeat: no-repeat;
+}
+*/
+
+
+section
+{
+
+	width: 35%;
+
+
+	
+}
+
+
+
+h1{
+
+text-align: center;
+margin-bottom: 0px;
+	 
+}
+
+
 
 span
 {
-
 	color:#FEC907;
 }
 
-#conteneur
-{
 
-margin:auto;
-border: none;
-display: flex;
-justify-content: center;
-padding: 0;
-margin:0;
+.dwf
+{
+	font-size: small;
+	padding-left: 140px;
+	align-content: center;
 
 }
 
-.gd
+.dwf2
 {
-margin-bottom: 10px;
-padding: 2px;
-padding-top:20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+hr
+{
+width: 90%;
+margin: 5px auto;
+height: 1.7px;
+background-color: #FEC907;
+color: #FEC907;
+border:none;
+}
 
 
+.dev{
+width: 7%;
+height: 1px;
+margin-left:140px;
+background-color:#FEC907;
+border:none;
+margin-top: 0px;
+}
+
+article
+{
+	margin-top: 30px;
 }
 
 .gauche
 {
+
 	float: left;
 	font-size: 8px;
-	padding-left: 65px;
+	padding-left: 40px;
 	margin-top:0px
+	padding-top:0px;
+
+
+}
+
+#formagauche 
+{
+margin-bottom: 0px;
+margin-top: 0px;
+font-weight: bold;
+padding-top: 0px;
+
+}
+
+.dd
+{
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top:0px;
 }
 
 .droite
@@ -41,188 +161,139 @@ font-size: 8px;
 text-align: justify;
 padding-right: 30px;
 padding-left: 50px;
+padding-top: 5px;
 
 
 }
-
-p
-{
-margin:0px;
-text-align: justify;
-}
-
-
-
-
-.article_1
-{
-justify-content: center;
-padding: 0,
-margin:0;
-
-}
-
-
-.element_1
-{
-width: 750px;
-height: 790px;
-display: flex;
-border: 1.2px solid grey;
-padding: 0;
-margin:0;
-
-}
-
-aside
-{
-	width: 200px;
-	background-color:#FEC907;
-}
-
-.photo
-{
-text-align: center;
-margin-top: 30px;
-margin-bottom: 20px;
-border-radius: 75px;
-
-}
-
-h1
-{
-	text-align: center;
-
-}
-
-
-
-.debut
+.gras
 {
 
-margin-bottom:0px;
-margin-top: 50px;
-padding:0px;
-
-
-}
-
-
-.petit
-{
-padding-left: 173px;
-font-size: small;
-padding-bottom: 2px;
-
-
-
-}
-
-}
-
-header
-{
-height: 180px;
-width: 550px;
-/*background-color: grey;*/
-
-}
-
-.article_1
-{
-width: 550px;
-height: 200px;
-/*background-color: blue;*/
-margin-top:35px;
-
-}
-
-.article_2
-{
-width: 550px;
-height: 250px;
-margin-top: 19px;
-/*background-color: orange;*/
-
-}
-
-.foot
-{
-width: 550px;
-height: 180px;
-margin-top: 50px;
-/*background-color: purple;*/
-
-}
-
-
-/*@font-face
-{
-	font-family:'Aaargh';
-	src	:url(Aaargh/Aaargh.ttf);
-}*/
-
-*
-{
-
-font-family:"Aaargh","Courier New","Times New Roman", Arial, sans-serif;
-
-
-}
-
-h2
-{
- padding-left:20px; 
- font-size: larger;
- margin:0px;
-
-
-}
-
-#formagauche p
-{
-margin-bottom: 60px;
-margin-top: 0px;
 font-weight: bold;
-
+font-size: 10px;
+margin-bottom: 0px;
+margin-top: 0px;
 }
 
-.paragraphe_2
+.poste
 {
-padding-top: 14px;
 
-}
+margin:0px;
 
-.paragraphe_3
-{
-padding-top: 26px;	
+
 }
 
 #footdroite
 {
 
 	padding-left: 120px;
+	padding-top: 1px;
 }
 
 
+.gd
 
-#formagaucho
+{
+margin-top: 0px;
+padding-top: 0px;
+
+}
+
+
+{
+margin-top: 0px;
+margin-bottom: 20px;
+
+}
+
+
+.article_1
 {
 
-	margin-left:-20px;
-	padding-bottom:15px;
+	margin-top:40px;
+	margin-bottom: 45px;
 }
 
-hr
+.bg
 {
-width: 90%;
-margin: 10px auto;
-height: 1.7px;
-background-color: #FEC907;
-color: #FEC907;
-border:none;
+padding-left: 20px;
 
 }
+
+
+.liste
+{
+
+	padding-bottom: 25px;
+}
+
+
+.paragraphe_1
+{
+
+	padding-top:2px;
+}
+
+
+.paragraphe_2
+{
+
+	padding-top:2px;
+}
+
+.paragraphe_3
+{
+
+	padding-top: 10px;
+}
+
+.description
+{
+
+	margin:0px;
+}
+
+.fg
+{
+	padding-left: 20px;
+}
+
+.art
+{
+
+display: flex;
+
+
+}
+
+#pen
+{
+
+	padding-left: 34px; 
+	color:  #FEC907;
+	padding-top: 5px;
+}
+
+h3
+{
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+.icone
+{
+	margin-bottom: 0px;
+}
+
+/*.photo
+{
+
+margin-top: 30px;
+margin-bottom: 20px;
+margin:auto;
+border-radius: 75px;
+min-width:150px;
+
+}*/
 
 .contact
 {
@@ -233,148 +304,22 @@ border:none;
 	margin: 0px;
 }
 
-.description
+.description2
 {
+
 font-size: 10px;
-padding-left: 20px; 
-padding-top: 4px;
-padding-bottom: 2px;
-
-
-}
-
-.propos
-{
-padding-left: 20px;
-padding-right: 20px;
-padding-top: 20px;
-font-size: 10px;
-text-align: justify;
-
-}
-.dev
-{
-
-width: 7%;
-height: 1px;
-margin-left:180px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left:5px;
 
 }
 
-.test
+.photo
 {
-margin-top: 1px;
-
-}
-
-
-.gras
-{
-
-font-weight: bold;
-font-size: 10px;
-}
-
-.pt
-{
-	margin-top: 2.5px;
-}
-
-.dd
-{
-	padding-left: 0px;
-	padding-top: 0px;
-	margin-top:0px;
-}
-
-/*{
-
-	list-style: none;
-}
-
-li:before
-{
-content: "\2022";
-color : #FEC907;
-width: 1em;
-height: 2px;
-padding-left: 0px;
-}*/
-
-
-.loisirs
-{
-	background-color:  #293d3d;
-	font-weight: bold;
-	text-align: center;
-	color: #FEC907;
-	margin-top: 120px;
-}
-
-
-.velo
-{
-display: flex;
-padding-left: 0px;
-padding-top: 5px;
 text-align: center;
-}
-
-
-
-.velo1
-{
-
-	float:left;
-	margin-right: 20px;
-	margin-top: 10px;
-}
-
-.velo2
-{
-
-	float:left;
-	margin-right: 20px;
-	margin-top: 10px;
-
-}
-
-
-.velo3
-{
-
-	float:left;
-	margin-right: 20px;
-	margin-top: 10px;
-}
-
-
-.logo1
-{
-
-	float:left;
-	padding-left: 70px;
-	padding-top: -2px; 
-
-}
-
-.logo2
-{
-
-	float:left;
-	padding-left: 70px;
-	padding-top: 0px; 
-
-}
-
-.logo3
-{
-
-margin-top: 20px;
-float: left;
-padding-left: 70px;
-
-
+margin-top: 30px;
+margin-bottom: 20px;
+border-radius: 75px;
 }
 
 .ronde
@@ -385,52 +330,63 @@ border-radius:80px;
 }
 
 
+.propos
 
-
-#pen
 {
+font-size: 14px;
+text-align: justify;
+padding:5px;
 
-	padding-left: 30px; 
-	color:  #FEC907;
+
 }
 
-.art
-{
-
-display:flex;
-
-}
 
 #icone1
 {
+	
+
 padding-left:5px;
 padding-top: 20px;
 padding:18px;
 margin:5px;
+color:#293d3d;
+float: left;*/
 }
 
 
 #icone2
 {
+
+	
+
 padding-left:30px;
 padding-top: 20px;
 padding:18px;
 margin:5px;
+color:#293d3d;
+float: left;*/
 
 }
 
 #icone3
 {
+
+	
+
 padding-left:30px;
 padding-top: 20px;
 padding:18px;
 margin:5px;
+color:#293d3d;*/
 }
 
-.ic
+#velo
 {
-	text-align: center;
-	padding-left: 10px;
+display: flex;
+text-align: center;
+
+
+
 }
 
 
@@ -438,35 +394,50 @@ margin:5px;
 {
 
 	border-radius: 100%;
-	background: #ffc0c0;
-	padding:10px;
-	width: 20px;
+	padding:15px;
+	width: 15px;
 	text-align: center;
 	vertical-align: middle;
+	border: solid grey 0.4px;
+
+}
+
+.article_3
+
+{
+
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.loisirs
+{
+
+margin-top: 30px;
 }
 
 
-@media screen and (max-width: 680px){
-	
-	header{width:100%}
-	header {background-color:#FEC907}
-	span{color:white}
-	aside{ display: none}
-	section{width:500px}
-	.article_1{width:100%;}
-	.gd{width: 100%}
-	#formagaucho{padding-left: 100px;}
-	.paragraphe_1{width:auto;padding-right:60px;}
-	.paragraphe_2{width:auto;padding-right:60px;}
-	.paragraphe_3{width:auto;padding-right:60px;}
-	.article_2{width:auto;}
-	.element_1{border:none;}
-	.petit{padding-left: 150px}
-	h2{margin-top: 70px;}
-	header{background-image:url("img/muss_mini.jpg"); background-repeat: no-repeat;}
-	.debut{margin-right: 150px;}
-	
+.fas 
+{
 
+	font-size: 12px;
+}
+
+
+
+
+@media screen and (max-device-width: 780px){
+	
+	aside{ width: 25%;}
+	section{width: 75%;}
+	body{margin:0px;}
+	#cadre{width: 100%;}
+	.circle-icon{display: none;}
+	#velo{word-wrap: break-word;}
+	img {width:100px; height: 100px;object-fit: cover; 
+}
+	
+ 
 
 
 
