@@ -473,12 +473,12 @@ margin-top: 30px;
 
 
 
-@media all and (max-width: 1224px){
+@media all and (max-width: 640px){
 	
+  	section{width:100%;}
 	aside{ width: 25%;}
-	section{width: 75%;}
 	body{margin:0px;}
-	#cadre{width: 100%;}
+	#cadre{ flex-direction: column;}
 	.circle-icon{display: none;}
 	#velo{word-wrap: break-word;}
 	img {width:80px; height: 80px;object-fit: cover; }
