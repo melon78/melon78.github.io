@@ -20,7 +20,8 @@ text-align: justify;
 {
 
 	margin-left: 150px;
-	margin-top: 10px;
+	margin-top: 20px;
+
 }
 
 .titre
@@ -31,10 +32,22 @@ text-align: justify;
 
 #gauche3 p
 {
-	margin-bottom: 80px;
+	margin-bottom: 100px;
+	margin-top: 3px;
+	
 }
 
 
+.para
+{
+	font-size: 12px;
+}
+
+.poste
+{
+	font-size: 12px;
+	font-weight: bold;
+}
 
 
 
