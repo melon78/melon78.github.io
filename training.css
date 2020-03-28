@@ -1,3 +1,43 @@
+
+
+.cadre2
+{
+
+margin-bottom: 70px;
+text-align: justify;
+
+}
+
+.gauche2
+{
+
+	float: left;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.droite2
+{
+
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+.titre
+{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#gauche3 p
+{
+	margin-bottom: 80px;
+}
+
+
+
+
+
 body
 {
 
@@ -82,12 +122,12 @@ margin-bottom: 0px;
 
 
 
-span
+/*span
 {
 	color:#FEC907;
 }
 
-
+*/
 .dwf
 {
 	font-size: small;
@@ -136,16 +176,19 @@ article
 	padding-left: 40px;
 	margin-top:0px
 	padding-top:0px;
+	
 
 
 }
 
-#formagauche 
+.formagauche 
 {
 margin-bottom: 0px;
 margin-top: 0px;
 font-weight: bold;
-padding-top: 0px;
+padding-top: 0px;	
+align-items: center;
+
 
 }
 
@@ -193,11 +236,13 @@ margin:0px;
 }
 
 
-.gd
+#gd
 
 {
 margin-top: 0px;
 padding-top: 0px;
+
+
 
 }
 
@@ -470,20 +515,33 @@ margin-top: 30px;
 	font-size: 12px;
 }
 
+.rando
+{
+width: 32px;
+height: 32px; 
+}
+
+#sport
+{
+
+display: flex;	
+justify-content: space-around;
+}
 
 
 
-@media all and (max-width: 640px){
+@media all and (max-width: 970px){
 	
-  	section{width:100%;}
-	aside{ width: 25%;}
-	body{margin:0px;}
+	aside{ width: 100%;}
 	#cadre{ flex-direction: column;}
+  section{width:100%;}
+	body{margin:0px;}
+	#cadre{width: 100%;}
 	.circle-icon{display: none;}
 	#velo{word-wrap: break-word;}
 	img {width:80px; height: 80px;object-fit: cover; }
 	.#footdroite{padding-right: auto;}
 
-	
+}
 
-}	
+	
