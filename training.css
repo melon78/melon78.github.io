@@ -1,10 +1,16 @@
 
 
+.mus{
+
+
+	color:  #FEC907;;
+}
 .cadre2
 {
 
-margin-bottom: 70px;
+margin-bottom: 20px;
 text-align: justify;
+
 
 }
 
@@ -14,13 +20,15 @@ text-align: justify;
 	float: left;
 	font-weight: bold;
 	font-size: 12px;
+	padding-top: 0px;
 }
 
 .droite2
 {
 
 	margin-left: 150px;
-	margin-top: 20px;
+	margin-top: 0px;
+	padding: 0px;
 
 }
 
@@ -32,15 +40,25 @@ text-align: justify;
 
 #gauche3 p
 {
-	margin-bottom: 100px;
-	margin-top: 3px;
+	margin-bottom: 80px;
+	margin-top: 0px;
 	
 }
 
 
+
+
 .para
 {
-	font-size: 12px;
+	font-size: 14px;
+}
+
+.paraphe
+{
+
+	margin top:0px;
+	margin-bottom: 0px;
+	padding-top: 7px;
 }
 
 .poste
@@ -50,6 +68,40 @@ text-align: justify;
 }
 
 
+.basgauche
+{
+	float: left;
+	margin-top: 0px;
+	margin-left: 100px;
+
+
+}
+
+.basdroite
+{
+margin-left: 300px;
+margin-top: 0px;
+padding-top: 0px;
+
+}
+
+.bas p
+{
+
+	font-size: 8px;
+	text-align: justify;
+	margin-top: 0px;
+	
+
+}
+
+#gg
+{
+
+	margin-top: 0px;
+	padding-top: 0px;
+
+}
 
 body
 {
@@ -87,7 +139,6 @@ height: 10%;
 aside
 {
 	width: 16%;
-	
 	background-color: #FEC907;
 	
 }
@@ -98,27 +149,31 @@ height: 150px;
 object-fit: cover; 
 }
 
+/*
+ul{
+	list-style: none;
+}
 
-/*#tmax
+ul li::before
 {
 
-	display:block;
-	float:left;
-	border-style: solid;
-	border-color: grey;
-	width:49%;
-	height:49%;
-	background:url(img/muss.jpg);
-	background-size:100% auto;  ADAPTATION de l'image au conteneur 
-	background-repeat: no-repeat;
+content:"\2022";
+color: #FEC907;
+font-weight: bold;
+display: inline-block;
+width: 1px;
+margin-left: -1px;
+list-style-position: outside;
+
 }
 */
-
 
 section
 {
 
 	width: 35%;
+
+
 
 
 	
@@ -128,24 +183,36 @@ section
 
 h1{
 
-text-align: center;
+
 margin-bottom: 0px;
 	 
 }
 
 
 
-/*span
+
+
+
+.devve
 {
-	color:#FEC907;
+	padding-left: 0px;
 }
 
-*/
+.cadrage{
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+
+}
+
+
 .dwf
 {
 	font-size: small;
-	padding-left: 140px;
-	align-content: center;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 
 }
 
@@ -165,19 +232,29 @@ color: #FEC907;
 border:none;
 }
 
+.souligne
+{
+text-decoration: underline #FEC907;
+text-decoration-thickness:2px;
+width: 10px;
 
+
+	
+}
+/*
 .dev{
 width: 7%;
 height: 1px;
-margin-left:140px;
 background-color:#FEC907;
 border:none;
 margin-top: 0px;
+padding-left: 0px;
 }
-
+*/
 article
 {
-	margin-top: 30px;
+	margin-top: 10px;
+
 
 }
 
@@ -187,8 +264,7 @@ article
 	float: left;
 	font-size: 8px;
 	padding-left: 40px;
-	margin-top:0px
-	padding-top:0px;
+
 	
 
 
@@ -212,25 +288,8 @@ align-items: center;
 	margin-top:0px;
 }
 
-.droite
-{
-margin-left: 150px;
-font-size: 8px;
-text-align: justify;
-padding-right: 30px;
-padding-left: 50px;
-padding-top: 5px;
 
 
-}
-.gras
-{
-
-font-weight: bold;
-font-size: 10px;
-margin-bottom: 0px;
-margin-top: 0px;
-}
 
 .poste
 {
@@ -240,13 +299,7 @@ margin:0px;
 
 }
 
-#footdroite
-{
 
-	padding-left: 100px;
-	padding-top: 1px;
-	margin-left: 150px;
-}
 
 
 #gd
@@ -255,36 +308,21 @@ margin:0px;
 margin-top: 0px;
 padding-top: 0px;
 
-
-
 }
 
-
-{
-margin-top: 0px;
-margin-bottom: 20px;
-
-}
 
 
 .article_1
 {
 
-	margin-top:20px;
-	margin-bottom: 20px;
+	margin-top:10px;
+	margin-bottom: 50px;
 }
 
 .bg
 {
 padding-left: 20px;
 
-}
-
-
-.liste
-{
-
-	padding-bottom: 25px;
 }
 
 
@@ -402,43 +440,7 @@ padding:5px;
 }
 
 
-/*{
-	
 
-padding-left:5px;
-padding-top: 20px;
-padding:18px;
-margin:5px;
-color:#293d3d;
-float: left;
-}
-
-
-#icone2
-{
-
-	
-
-padding-left:30px;
-padding-top: 20px;
-padding:18px;
-margin:5px;
-color:#293d3d;
-float: left;
-
-}
-
-#icone3
-{
-
-	
-
-padding-left:30px;
-padding-top: 20px;
-padding:18px;
-margin:5px;
-color:#293d3d;
-}*/
 
 #velo
 {
@@ -511,14 +513,14 @@ margin:auto;
 .article_3
 {
 
-	margin-bottom: 30px;
-	padding-bottom: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .loisirs
 {
 
-margin-top: 30px;
+margin-top:200px;
 }
 
 
@@ -539,11 +541,26 @@ height: 32px;
 
 display: flex;	
 justify-content: space-around;
+margin-bottom: 50px;
 }
 
+.devve
+{
 
+	margin-top: 0px;
+}
 
-@media all and (max-width: 970px){
+.point
+{
+
+	color: #FEC907;
+}
+.point2
+{
+	color:  #00251a;
+}
+
+@media all and (max-width: 640px){
 	
 	aside{ width: 100%;}
 	#cadre{ flex-direction: column;}
@@ -555,6 +572,16 @@ justify-content: space-around;
 	img {width:80px; height: 80px;object-fit: cover; }
 	.#footdroite{padding-right: auto;}
 
-}
+	.dev{
+		height: 1px;
+		margin-left:200px;
+		background-color:#FEC907;
+		border:none;
+		margin-top: 0px;
+		}
 
-	
+	.devve{ padding-left: 0px ; margin-left: 10px}
+
+
+
+	}
