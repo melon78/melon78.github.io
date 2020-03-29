@@ -557,7 +557,13 @@ margin-bottom: 50px;
 }
 .point2
 {
-	color:  #00251a;
+	color: black;
+}
+
+.point3
+{
+	color: black;
+	padding-top: 12px;
 }
 
 @media all and (max-width: 640px){
