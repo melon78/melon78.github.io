@@ -520,7 +520,7 @@ margin:auto;
 .loisirs
 {
 
-margin-top:200px;
+margin-top:350px;
 }
 
 
@@ -575,7 +575,7 @@ margin-bottom: 50px;
 	#cadre{width: 100%;}
 	.circle-icon{display: none;}
 	#velo{word-wrap: break-word;}
-	img {width:80px; height: 80px;object-fit: cover; }
+	/*img {width:80px; height: 80px;object-fit: cover; }*/
 	.#footdroite{padding-right: auto;}
 
 	.dev{
@@ -587,6 +587,9 @@ margin-bottom: 50px;
 		}
 
 	.devve{ padding-left: 0px ; margin-left: 10px}
+
+	.loisirs{margin-top: 30px;}
+	
 
 
 
