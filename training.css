@@ -149,24 +149,9 @@ height: 150px;
 object-fit: cover; 
 }
 
-/*
-ul{
-	list-style: none;
-}
 
-ul li::before
-{
 
-content:"\2022";
-color: #FEC907;
-font-weight: bold;
-display: inline-block;
-width: 1px;
-margin-left: -1px;
-list-style-position: outside;
 
-}
-*/
 
 section
 {
@@ -176,7 +161,7 @@ section
 
 
 
-	
+	s
 }
 
 
