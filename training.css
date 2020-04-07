@@ -68,32 +68,19 @@ text-align: justify;
 }
 
 
-.basgauche
-{
-	float: left;
-	margin-top: 0px;
-	margin-left: 100px;
 
 
-}
-
-.basdroite
-{
-margin-left: 300px;
-margin-top: 0px;
-padding-top: 0px;
-
-}
 
 .bas p
 {
 
-	font-size: 8px;
-	text-align: justify;
-	margin-top: 0px;
 	
+	
+	margin-top: 0px;
+	/*text-align: justify;*/
 
 }
+
 
 #gg
 {
@@ -140,6 +127,7 @@ aside
 {
 	width: 16%;
 	background-color: #FEC907;
+	
 	
 }
 
@@ -503,20 +491,45 @@ margin-bottom: 50px;
 {
 
 	color: #FEC907;
+	
 }
 .point2
 {
 	color: black;
+	font-size: 12px;
 }
 
 .point3
 {
 	color: black;
-	padding-top: 12px;
+	margin-top: 10px;
+	
+
 }
 
-@media all and (max-width: 640px){
+
+li:first-child
+{
 	
+	font-size:15px;
+	margin:0px;
+
+
+}
+footer
+{
+
+display: flex;
+justify-content: space-around;
+font-size: 12px;
+padding-top: 0px;
+
+}
+
+
+
+
+@media all and (max-width: 640px){
 	aside{ width: 100%;}
 	#cadre{ flex-direction: column;}
   section{width:100%;}
@@ -538,8 +551,6 @@ margin-bottom: 50px;
 	.devve{ padding-left: 0px ; margin-left: 10px}
 
 	.loisirs{margin-top: 30px;}
-	
-
 
 	}
 
