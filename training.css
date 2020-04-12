@@ -12,6 +12,7 @@ margin-bottom: 20px;
 text-align: justify;
 
 
+
 }
 
 .gauche2
@@ -20,7 +21,7 @@ text-align: justify;
 	float: left;
 	font-weight: bold;
 	font-size: 12px;
-	padding-top: 0px;
+	padding-top: 14px;
 }
 
 .droite2
@@ -28,7 +29,7 @@ text-align: justify;
 
 	margin-left: 150px;
 	margin-top: 0px;
-	padding: 0px;
+	padding: 2px;
 
 }
 
@@ -38,7 +39,7 @@ text-align: justify;
 	font-size: 15px;
 }
 
-#gauche3 p
+.gauche p
 {
 	margin-bottom: 80px;
 	margin-top: 0px;
@@ -276,7 +277,7 @@ padding-top: 0px;
 {
 
 	margin-top:10px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 .bg
@@ -341,6 +342,9 @@ h3
 .icone
 {
 	margin-bottom: 0px;
+	padding-left: 34px; 
+	color:  #FEC907;
+	padding-top: 5px;
 }
 
 
@@ -479,6 +483,7 @@ height: 32px;
 display: flex;	
 justify-content: space-around;
 margin-bottom: 50px;
+margin-top: 30px;
 }
 
 .devve
@@ -497,14 +502,37 @@ margin-bottom: 50px;
 {
 	color: black;
 	font-size: 12px;
+	padding-top: 0px;
 }
+
+.point1
+{
+	color: black;
+	font-size: 12px;
+	padding-top: 30px;
+}
+
 
 .point3
 {
 	color: black;
-	margin-top: 10px;
+	margin-top: 20px;
+	padding-top: 114px;
 	
+}
 
+.point4
+{
+	color: black;
+	font-size: 12px;
+	padding-top: 105px;
+}
+
+.point5
+{
+	color: black;
+	font-size: 12px;
+	padding-top: 70px;
 }
 
 
@@ -551,6 +579,29 @@ padding-top: 0px;
 	.devve{ padding-left: 0px ; margin-left: 10px}
 
 	.loisirs{margin-top: 30px;}
+
+
+.point3
+{
+	color: black;
+	margin-top: 20px;
+	padding-top: 92px;
+	
+}
+
+.point4
+{
+	color: black;
+	font-size: 12px;
+	padding-top: 67px;
+}
+
+.point5
+{
+	color: black;
+	font-size: 12px;
+	padding-top: 49px;
+}
 
 	}
 
