@@ -498,6 +498,15 @@ margin-top: 30px;
 	color: #FEC907;
 	
 }
+
+.pointbis
+{
+
+
+	
+	color: #FEC907;
+	
+}
 .point2
 {
 	color: black;
@@ -535,7 +544,12 @@ margin-top: 30px;
 	padding-top: 70px;
 }
 
+.pointbis li{
 
+font-size: 18px;
+
+}
+/*
 li:first-child
 {
 	
@@ -544,6 +558,8 @@ li:first-child
 
 
 }
+
+*/
 footer
 {
 
