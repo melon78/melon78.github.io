@@ -57,7 +57,7 @@ text-align: justify;
 .paraphe
 {
 
-	margin top:0px;
+	
 	margin-bottom: 0px;
 
 }
@@ -198,19 +198,19 @@ width: 90%;
 margin: 5px auto;
 height: 1.7px;
 background-color: #FEC907;
-color: #FEC907;
+
 border:none;
 }
 
 .souligne
 {
+
 text-decoration: underline #FEC907;
-text-decoration-thickness:2px;
 width: 10px;
 
-
-	
 }
+
+
 
 article
 {
@@ -592,8 +592,8 @@ padding-top: 0px;
 	#cadre{width: 100%;}
 	.circle-icon{display: none;}
 	#velo{word-wrap: break-word;}
-	/*img {width:80px; height: 80px;object-fit: cover; }*/
-	.#footdroite{padding-right: auto;}
+	
+	
 
 	.dev{
 		height: 1px;
@@ -632,9 +632,4 @@ padding-top: 0px;
 
 	}
 
-/*
-@media all and  (min-width: 641px) and (max-width: 968px)
-{
-.photo{display:none; }
 
-}*/
