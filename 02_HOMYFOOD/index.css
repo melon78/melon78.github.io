@@ -898,14 +898,14 @@ h1
     .ligne2{flex-direction: column;}
     .boite {width: 100%; min-height: 300px;}
       #M1{padding:0px;}
-    #M2{padding:0px;}
+  /*  #M2{padding:0px;}*/
     #M3{padding:0px;}
     #M4{padding:0px;}
-   #fond2 h2{padding: 0px;}
-   #fond3 h2{padding: 0px;}
-   #fond4 h2{padding: 0px;}
+  /* #fond2 h2{padding: 0px;}*/
+  /* #fond3 h2{padding: 0px;}*/
+  /* #fond4 h2{padding: 0px;}*/
    #fond1 h2{padding: 0px;}
-   div.note{display: none;}
+   /*div.note{display: none;}*/
    .note h2{ margin:0px;}
    h2{margin:0px;}
    #fond2 {min-height: 100px; align-items: center;vertical-align: middle;}

@@ -399,6 +399,7 @@ article p
 {
 	background-color: #EDEFEF;
 	text-align: justify;
+
 }
 
 #fond p
@@ -505,11 +506,14 @@ div.trait
 
 
 
-@media all and (max-width: 680px){
 
-		#bloc_page{width:100% !important;}
-		.bouton{width: 100%;}
-		footer{width: 96.4%;}
+@media all and (max-width: 950px){
+
+   #bloc_page{width:100%;background-color:#EDEFEF;padding-bottom: 500px}
+    body{min-width: 400px;}
+    .bouton{width: 100%;}
+    footer{width: 100%;}
+    div.trait{width: 100%;}
 
 	}
 

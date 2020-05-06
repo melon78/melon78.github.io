@@ -619,16 +619,21 @@ div.trait
 
 .chic3{
   color:#6E4CCC ;
+
 }
 
 
 
 
-@media all and (max-width: 680px){
 
-		#bloc_page{width:100% !important;}
-		.bouton{width: 100%;}
-		footer{width: 96.4%;}
+@media all and (max-width: 950px){
+
+	 #bloc_page{width:100%; background-color:#FFF5FE;padding-bottom: 500px}
+    body{min-width: 400px;height: 100%;}
+    .bouton{width: 100%;}
+    footer{width: 100%;}
+    div.trait{width: 100%;}
+
 
 	}
 

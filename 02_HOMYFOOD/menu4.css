@@ -531,9 +531,9 @@ div.trait
 
 @media all and (max-width: 680px){
 
-		#bloc_page{width:100% !important;}
+		#bloc_page{width:100% !important;background-color:#FDFFFF;padding-bottom: 500px}
 		.bouton{width: 100%;}
-		footer{width: 96.4%;}
+		footer{width: 100%;}
 
 	}
 
