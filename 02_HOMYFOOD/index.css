@@ -778,25 +778,7 @@ font-family: kalamlight,Arial,sans-serif;
 .title{
   overflow: hidden;
   text-align: center;}
-/*
-  .title span{
-    position: relative;
-    padding: 1em;} 
-    .title span:before,
-    .title span:after{
-      content: "";
-      display: block;
-      position: absolute;
-      height: 1px;
-      background: #000;
-      width: 800px;
-      top: 50%;
-      margin-top: -1px;}
-    .title span:before{
-      right: 100%;}
-    .title span:after{
-      left: 100%;}
-*/
+
 table
 {
 	width: 100%;

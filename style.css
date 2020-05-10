@@ -9,22 +9,63 @@
 	vertical-align: center;
 }
 
-a
-{
-	text-decoration: none;
-}
+
 .P2
 {
-background-color: #4FC3F7;
-margin:10px;
+
+margin:50px;
 }
 
 .P3
 {
 
-background-color: #FF8F00;}
+}
 
-.P2 hover
+
+
+.bouton
 {
-background-color: none;	
+	padding: 10px 25px;
+	border-width: 2px;
+	border-image: linear-gradient(to right,#1db0dc,#23d0d3);
+	background:linear-gradient(to right,#1db0dc,#23d0d3);
+	color:#fff;
+	cursor:pointer;
+	text-decoration: none;
+	font-weight:bold;
+	transition: all 0.3s ease 0s;
+	filter: hue-rotate(0deg) saturate(1);
+	border-radius: 7px;
+	
+}
+
+
+
+
+
+.bouton2
+{
+	padding: 10px 25px;
+	border-width: 2px;
+	border-image: linear-gradient(to right,#43A047,#69F0AE);
+	background:linear-gradient(to right,#43A047,#69F0AE);
+
+	color:#fff;
+	cursor:pointer;
+	text-decoration: none;
+	font-weight:bold;
+	transition: all 0.3s ease 0s;
+	filter: hue-rotate(0deg) saturate(1);
+	border-radius: 7px;
+
+
+}
+
+
+}
+
+.bouton:hover,
+.bouton:focus
+{
+	filter: hue-rotate(10deg) saturate(1.2);
 }
