@@ -357,7 +357,7 @@ h3
 	margin: 0px;
 }
 
-.description2
+.coordonnees
 {
 
 font-size: 10px;
@@ -633,3 +633,14 @@ padding-top: 0px;
 	}
 
 
+
+@media only screen and (min-device-width : 641px) and (max-device-width : 1024px) 
+{
+	aside{ width: 100%;}
+	#cadre{ flex-direction: column;}
+  section{width:100%;}
+	body{margin:0px;}
+	#cadre{width: 100%;}
+	.circle-icon{display: none;}
+	#velo{word-wrap: break-word;}
+}
