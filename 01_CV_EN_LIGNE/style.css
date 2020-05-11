@@ -242,12 +242,6 @@ align-items: center;
 
 }
 
-.dd
-{
-	padding-left: 0px;
-	padding-top: 0px;
-	margin-top:0px;
-}
 
 
 
@@ -263,13 +257,6 @@ margin:0px;
 
 
 
-#gd
-
-{
-margin-top: 0px;
-padding-top: 0px;
-
-}
 
 
 
@@ -280,42 +267,8 @@ padding-top: 0px;
 	margin-bottom: 10px;
 }
 
-.bg
-{
-padding-left: 20px;
-
-}
 
 
-.paragraphe_1
-{
-
-	padding-top:2px;
-}
-
-
-.paragraphe_2
-{
-
-	padding-top:2px;
-}
-
-.paragraphe_3
-{
-
-	padding-top: 10px;
-}
-
-.description
-{
-
-	margin:0px;
-}
-
-.fg
-{
-	padding-left: 20px;
-}
 
 .art
 {
@@ -397,11 +350,7 @@ padding:5px;
 
 
 
-#velo
-{
-display: flex;
-text-align: center;
-}
+
 
 #contenant
 {
@@ -582,7 +531,7 @@ padding-top: 0px;
 	body{margin:0px;}
 	#cadre{width: 100%;}
 	.circle-icon{display: none;}
-	#velo{word-wrap: break-word;}
+	
 
 	.dev{
 		height: 1px;
@@ -647,7 +596,7 @@ margin-top:50px;
 	body{margin:0px;}
 	#cadre{width: 100%;}
 	.circle-icon{display: none;}
-	#velo{word-wrap: break-word;}
+	
 
 .loisirs
 {
