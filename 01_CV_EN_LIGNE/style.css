@@ -40,7 +40,7 @@ header {
 }
 
 aside {
-    width: 16%;
+    width: 20%;
     background-color: #fec907;
 }
 
@@ -56,6 +56,7 @@ section {
 
 h1 {
     margin-bottom: 0;
+    font-size: 31px;
 }
 
 .cadrage {
