@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <!-- Modification mot clé , faire figurer Lyon à la palce de Paris, suppression de répétition de mot clé agence design MB 01/06/2020-->
+    <!-- toutes les images ont été redimmensionnées, les fichier bmp ont été transformer en jpg MB 02/06/2020-->
     <meta name="keywords" content="seo, google, site web, site internet, agence design Lyon, agence design Lyonnaise,agence design,la-chouette-agence">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -21,7 +22,9 @@
 	<script src="./js/gmaps.js" defer></script>
 
 <!--Ajout de la balise noscript celle ci permettra d'afficher une autre page si le navigateur ne prends par en charge javascript MB 01/06/2020-- >
-<noscript>Ce navigateur ne supporte pas Javascript! </noscript>
+
+
+<noscript>Ce navigateur ne supporte pas Javascript!</noscript>
 
 <!-- ajout du titre , très important pour faire le lien avec le contenu de la page MB 31/05/2020-->
     <title>La Chouette Agence</title>
@@ -42,9 +45,10 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<div class="keywords" style="color:#cccccc;font-size:10px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<div class="keywords">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:10px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+
+				<!-- ici suppression d'un doublon class keywords MB 01/06/2020-->
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -54,8 +58,7 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
-					<li>
-					</li>
+					<!-- ici suppression d'un <li> vide -->
 					<li>
 						<a href="page2.html">page2 &gt;</a>
 					</li>
@@ -129,7 +132,7 @@
 		</div>
 		<div class="row voffset-lg voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/citation.png" />
+				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/citation.png" loading="lazy"/>
 
 			</div>
 		</div>
@@ -159,12 +162,12 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title2.png" />
+				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title2.png" loading="lazy"/>
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" loading="lazy" /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -173,7 +176,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
+				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" loading="lazy"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h3>
@@ -184,7 +187,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
+				<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur" loading="lazy"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
@@ -193,7 +196,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
+				<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" loading="lazy" /></a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
@@ -250,44 +253,44 @@
 							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+					<div class="keywords_bis">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-4">
 						Partenaires
-							<ul> <!-- Ajout de l'attibut rel pour spécicier des lien follow ou notfollow MB 01/06/2020-->
-								<li><a href="voiture.com" rel="follow">voiture.com</a></li>
-								<li><a href="pizza.com"rel="follow">pizza.com</a></li>
-								<li><a href="matoiture.com"rel="follow">matoiture.com</a></li>
-								<li><a href="immobilierseo.com"rel="follow">immobilierseo.com</a></li>
+							<ul> <!-- Ajout de l'attribut rel pour spécicier des lien follow ou notfollow MB 01/06/2020-->
+								<li><a href="voiture.com" rel="follow">voiture</a></li>
+								<li><a href="pizza.com"rel="follow">pizza fooding</a></li>
+								<li><a href="matoiture.com"rel="follow">toiture renovation </a></li>
+								<li><a href="immobilierseo.com"rel="follow">immobilierseo</a></li>
 							</ul>		
 					</div>
 					<div class="col-sm-4">
 						Annuaires liste 1
 						<ul>
-							<li><a href="annuaireagence.com" rel="follow">annuaireagence.com</a></li>
-							<li><a href="annuaireseo.com" rel="follow">annuaireseo.com</a></li>
-							<li><a href="annuairemarketing.com" rel="follow">annuairemarketing.com</a></li>
-							<li><a href="123seoture.com" rel="follow">123seo.com</a></li>
-							<li><a href="123site.com" rel="follow">123site.com</a></li>
-							<li><a href="annuairewordpress.com" rel="follow">annuairewordpress.com</a></li>
-							<li><a href="listeagence.com" rel="follow">listeagence.com</a></li>
-							<li><a href="meilleuresagencesparis.com" rel="follow">meilleuresagencesparis.com</a></li>
-							<li><a href="listeseo.com" rel="follow">listeseo.com</a></li>
+							<li><a href="annuaireagence.com" rel="follow">sita annuaire de toutes les agences </a></li>
+							<li><a href="annuaireseo.com" rel="follow">Solopreneur</a></li>
+							<li><a href="annuairemarketing.com" rel="follow">marketing</a></li>
+							<li><a href="123seoture.com" rel="follow">123seo</a></li>
+							<li><a href="123site.com" rel="follow">123site</a></li>
+							<li><a href="annuairewordpress.com" rel="follow">annuairewordpress</a></li>
+							<li><a href="listeagence.com" rel="follow">listeagence</a></li>
+							<li><a href="meilleuresagencesparis.com" rel="follow">meilleures agences paris</a></li>
+							<li><a href="listeseo.com" rel="follow">listeseo</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4">
 						Annuaires liste 2
 						<ul>
-							<li><a href="betterseo.com" rel="follow">betterseo.com</a></li>
-							<li><a href="ameliorerseo.com" rel="follow">ameliorerseo.com</a></li>
-							<li><a href="seojuicelien.com" rel="follow">seojuicelien.com</a></li>
-							<li><a href="meilleursliens.com" rel="follow">meilleursliens.com</a></li>
-							<li><a href="liensagogo.com" rel="follow">liensagogo.com</a></li>
-							<li><a href="backlink.com" rel="follow">backlink.com</a></li>
-							<li><a href="linkjuiceannuaire.com" rel="follow">linkjuiceannuaire.com</a></li>
-							<li><a href="remontersurgoogle.com" rel="follow">remontersurgoogle.com</a></li>
-							<li><a href="vraiseofiable.com" rel="follow">vraiseofiable.com</a></li>
+							<li><a href="betterseo.com" rel="follow">betterseo</a></li>
+							<li><a href="ameliorerseo.com" rel="follow">ameliorerseo</a></li>
+							<li><a href="seojuicelien.com" rel="follow">seojuicelien</a></li>
+							<li><a href="meilleursliens.com" rel="follow">meilleursliens</a></li>
+							<li><a href="liensagogo.com" rel="follow">liensagogo</a></li>
+							<li><a href="backlink.com" rel="follow">backlink</a></li>
+							<li><a href="linkjuiceannuaire.com" rel="follow">linkjuiceannuaire</a></li>
+							<li><a href="remontersurgoogle.com" rel="follow">remontersurgoogle</a></li>
+							<li><a href="vraiseofiable.com" rel="follow">vraiseofiable</a></li>
 						</ul>
 					</div>
 				</div>
