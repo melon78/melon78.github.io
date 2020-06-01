@@ -1,3 +1,10 @@
+<IfModule mod_headers.c>
+	<FilesMatch".(js|css|xml|gz)$">
+		Header append Vary: Accept-Encoding
+	</FilesMatch>
+</IfModule>
+
+
 # MOD_DEFLATE COMPRESSION
 SetOutputFilter DEFLATE
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
