@@ -398,7 +398,7 @@ a:hover {
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0px;
+        margin-right: 20px; /* modification du margin * MB 05/05/2020/
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {

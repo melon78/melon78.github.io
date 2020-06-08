@@ -60,7 +60,7 @@ header h1
 	letter-spacing: -2px;
 }
 
-section 
+.cadre 
 {
 	display: flex;
 	flex-direction: column;
