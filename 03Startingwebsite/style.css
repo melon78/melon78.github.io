@@ -1,5 +1,4 @@
-/*Suppression du mot important qui impacte la qualité du rendu s'approche d'untechnique black hat MB 01/06/2020*/
-/*intégration du style de la base html dans le fichier CSS ligne 834 MB 01/06/2020*/
+
 
 body {
     margin: 0;
@@ -685,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -830,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg"); /*modification du format pour baisser le poids du fichier MB 01/06/2020 */
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 
