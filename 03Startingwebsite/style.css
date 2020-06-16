@@ -369,7 +369,14 @@ a:hover {
     z-index: 2;
 }
 
+/*
+.chou{
+    font-size: 2em;
+}
+*/
 @media (min-width: 768px) {
+
+
     .site-navigation {
         position: absolute;
         top: 50%;
