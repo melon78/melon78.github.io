@@ -8075,3 +8075,8 @@ button.close {
         display: none !important
     }
 }
+
+@media (min-width:768px){
+
+	.chou{min-width: 600px;}
+}
