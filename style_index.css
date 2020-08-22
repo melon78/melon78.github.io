@@ -40,10 +40,11 @@ a:hover{text-decoration:none;cursor:pointer}
 .navbar-toggle:hover{background:0 0}
 .navbar-toggle .icon-bar{background-color:rgba(0,0,0,.5);width:26px}
 .text-center{font-size:1.2em}
-.textbas{font-size: 1.5em}
+.textbas{font-size: 1.5em;color:black}
 .contact2{font-size:1.5em;color:#fff}
 .chou{font-size: 1.5em;}/*taille de la chouette agence en H1*/
 .dotscolor li{color:black}/* changement des couleurs des points des liens*/
+.color_titre_lien{color:black}
 @media (min-width:768px){
 .site-navigation{position:absolute;top:50%;right:20px;transform:translate(0,-50%);-webkit-transform:translateY(-50%)}
 .nav-center{text-align:center}
