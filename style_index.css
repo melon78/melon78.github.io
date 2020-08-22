@@ -14,6 +14,7 @@ a:hover{text-decoration:none;cursor:pointer}
 .texture-paper::before{background:url(img/texture-paper.png);background-size:280px 280px}
 .b-parallax{background-attachment:fixed}
 .d-bloc{color:rgba(255,255,255,.7)}
+			<div class="col-sm-12">
 .d-bloc button:hover{color:rgba(255,255,255,.9)}
 .d-bloc .a-btn,.d-bloc .navbar a,.d-bloc .navbar-brand,.d-bloc a .icon-lg,.d-bloc a .icon-md,.d-bloc a .icon-sm,.d-bloc h1 a,.d-bloc h2 a,.d-bloc h3 a,.d-bloc h4 a,.d-bloc h5 a,.d-bloc h6 a,.d-bloc p a{color:rgba(255,255,255,.6)}
 .d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc .navbar-brand:hover,.d-bloc a:hover .icon-lg,.d-bloc a:hover .icon-md,.d-bloc a:hover .icon-sm,.d-bloc h1 a:hover,.d-bloc h2 a:hover,.d-bloc h3 a:hover,.d-bloc h4 a:hover,.d-bloc h5 a:hover,.d-bloc h6 a:hover,.d-bloc p a:hover{color:rgba(255,255,255,1)}
@@ -39,7 +40,7 @@ a:hover{text-decoration:none;cursor:pointer}
 .navbar-toggle{margin:10px 10px 0 0;border:0}
 .navbar-toggle:hover{background:0 0}
 .navbar-toggle .icon-bar{background-color:rgba(0,0,0,.5);width:26px}
-.text-center{font-size:1.2em}
+.text-center{font-size:1.5em}
 .textbas{font-size: 1.5em;color:black}
 .contact2{font-size:1.5em;color:#fff}
 .chou{font-size: 1.5em;}/*taille de la chouette agence en H1*/
@@ -91,7 +92,7 @@ h4{color:#333}
 .bgc-white{background-color:#fff}
 .bgc-dark-slate-blue{background-color:#364577}
 .bgc-atomic-tangerine{background-color:#f3976c}
-.tc-white{color:#fff;font-size:1.2em}
+.tc-white{color:#fff;font-size:1.5em}
 .btn-atomic-tangerine{background:#f3976c;color:#fff}
 .btn-atomic-tangerine:hover{background:#c27956;color:#fff}
 .ltc-white{color:#fff}
