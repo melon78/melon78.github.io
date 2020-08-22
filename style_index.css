@@ -40,6 +40,7 @@ a:hover{text-decoration:none;cursor:pointer}
 .navbar-toggle:hover{background:0 0}
 .navbar-toggle .icon-bar{background-color:rgba(0,0,0,.5);width:26px}
 .text-center{font-size:1.2em}
+.textbas{font-size: 1.5em}
 .contact2{font-size:1.5em;color:#fff}
 .chou{font-size: 1.5em;}/*taille de la chouette agence en H1*/
 @media (min-width:768px){
