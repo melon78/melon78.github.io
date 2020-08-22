@@ -45,6 +45,7 @@ a:hover{text-decoration:none;cursor:pointer}
 .chou{font-size: 1.5em;}/*taille de la chouette agence en H1*/
 .dotscolor li{color:black}/* changement des couleurs des points des liens*/
 .color_titre_lien{color:black}
+.d-bloc a .icon-md{color: rgb(0, 0, 0);}
 @media (min-width:768px){
 .site-navigation{position:absolute;top:50%;right:20px;transform:translate(0,-50%);-webkit-transform:translateY(-50%)}
 .nav-center{text-align:center}

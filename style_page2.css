@@ -323,7 +323,7 @@ animation-fill-mode:none}
 {
 	font-family:helvetica;
 	font-weight:400;
-color:#575757}
+color:#000000}  /* couleur modifiée*/
 
 .container
 {
@@ -411,7 +411,9 @@ color:#fff}
 {
 background-image:url(img/dots-bg.png)}
 
-
+.d-bloc a .icon-md{color: rgb(0, 0, 0);}
+.textbas{font-size: 1.5em;color:black}
+.taillebouton{font-size:2em}
 @media (max-width:1024px)
 {
 	.bloc
