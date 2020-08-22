@@ -65,7 +65,7 @@ a[data-lightbox]:hover::before{content:"+";font-family:HelveticaNeue-Light,"Helv
 a[data-lightbox]:hover img{opacity:.6;-webkit-animation-fill-mode:none;animation-fill-mode:none}
 .lightbox-caption{padding:20px;color:#fff;background:rgba(0,0,0,.5);position:absolute;left:15px;right:15px;bottom:5px}
 .snapshot-lb .lightbox-caption{padding:0;color:rgba(0,0,0,.5);background:0 0}
-.btn,a,h1,h2,h3,h4,h5,h6,p{font-family:helvetica;font-weight:400;color:#575757}
+.btn,a,h1,h2,h3,h4,h5,h6,p{font-family:helvetica;font-weight:400;color:#000000}
 .container{max-width:1000px}
 .hero-bloc-text{font-size:38px}
 p{font-size:12px}
@@ -86,7 +86,7 @@ h4{color:#333}
 .bold-link{font-weight:900;text-decoration:underline}
 .bgc-white{background-color:#fff}
 .bgc-dark-slate-blue{background-color:#364577}
-.bgc-atomic-tangerine{background-color:#F0E6E6}
+.bgc-atomic-tangerine{background-color:#f3976c}
 .tc-white{color:#fff;font-size:1.2em}
 .btn-atomic-tangerine{background:#f3976c;color:#fff}
 .btn-atomic-tangerine:hover{background:#c27956;color:#fff}
