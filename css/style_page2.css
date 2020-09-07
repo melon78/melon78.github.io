@@ -70,7 +70,7 @@ right:0}
 
 .texture-paper::before
 {
-	background:url(img/texture-paper.png);
+	background:url(../img/texture-paper.png);
 background-size:280px 280px}
 
 .d-bloc
@@ -409,7 +409,7 @@ color:#fff}
 
 .bg-dots-bg
 {
-background-image:url(img/dots-bg.png)}
+background-image:url(../img/dots-bg.png)}
 
 .d-bloc a .icon-md{color: rgb(0, 0, 0);}
 .textbas{font-size: 1.5em;color:black}
