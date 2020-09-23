@@ -83,7 +83,7 @@
 	<div class="container bloc-lg">
 		<div class="row_bis">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
 							Nom
@@ -107,7 +107,7 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button novalidate success-msg="Your message has been sent." class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						<span class="taillebouton">Envoyer</span>
 					</button>
 				</form>
